@@ -1,0 +1,15 @@
+<div id="header" style="text-align:center">
+
+    <nav>
+        <a class="btn" routerLink="greeting" routerLinkActive="active">Home</a>
+        <a class="btn" routerLink="tasks" routerLinkActive="active">Tasks</a>
+        <a class="btn" routerLink="newTask" routerLinkActive="active">New Task</a>
+        <a class="btn" routerLink="displayTasks" routerLinkActive="active">Display Tasks</a>
+
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <app-tasks></app-tasks>
+</div>
+<app-task-form></app-task-form>
+<router-outlet></router-outlet>
